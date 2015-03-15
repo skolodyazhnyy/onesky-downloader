@@ -4,7 +4,8 @@
     "require": {
         "symfony/console": "~2.6",
         "onesky/api-library-php5": "~1.0",
-        "pimple/pimple": "~3.0"
+        "pimple/pimple": "~3.0",
+        "symfony/finder": "~2.6"
     },
     "autoload": {
         "psr-4": { "Seven\\OneskyDownloader\\": "src" }
