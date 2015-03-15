@@ -1,0 +1,152 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "2dfefa5ba77d2aac64c964aeeabc1c0e",
+    "packages": [
+        {
+            "name": "onesky/api-library-php5",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/onesky/api-library-php5.git",
+                "reference": "b641b8ad6afc2816336852fc00fa921ed8e0eb4d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/onesky/api-library-php5/zipball/b641b8ad6afc2816336852fc00fa921ed8e0eb4d",
+                "reference": "b641b8ad6afc2816336852fc00fa921ed8e0eb4d",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.3.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Onesky\\Api\\": "./src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHP interface for OneSky Platform API",
+            "homepage": "https://github.com/onesky/api-library-php5",
+            "time": "2014-12-30 02:42:46"
+        },
+        {
+            "name": "pimple/pimple",
+            "version": "v3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silexphp/Pimple.git",
+                "reference": "876bf0899d01feacd2a2e83f04641e51350099ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/876bf0899d01feacd2a2e83f04641e51350099ef",
+                "reference": "876bf0899d01feacd2a2e83f04641e51350099ef",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Pimple": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Pimple is a simple Dependency Injection Container for PHP 5.3",
+            "homepage": "http://pimple.sensiolabs.org",
+            "keywords": [
+                "container",
+                "dependency injection"
+            ],
+            "time": "2014-07-24 09:48:15"
+        },
+        {
+            "name": "symfony/console",
+            "version": "v2.6.4",
+            "target-dir": "Symfony/Component/Console",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Console.git",
+                "reference": "e44154bfe3e41e8267d7a3794cd9da9a51cfac34"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/e44154bfe3e41e8267d7a3794cd9da9a51cfac34",
+                "reference": "e44154bfe3e41e8267d7a3794cd9da9a51cfac34",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/event-dispatcher": "~2.1",
+                "symfony/process": "~2.1"
+            },
+            "suggest": {
+                "psr/log": "For using the console logger",
+                "symfony/event-dispatcher": "",
+                "symfony/process": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.6-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Console\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "http://symfony.com",
+            "time": "2015-01-25 04:39:26"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

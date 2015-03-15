@@ -1,0 +1,19 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . "/vendor/autoload.php";
+
+use Seven\OneskyDownloader\Application;
+
+$config = array(
+    'onesky_api_key'    => getenv('ONESKY_APIKEY'),
+    'onesky_api_secret' => getenv('ONESKY_APISECRET'),
+    'onesky_project'    => getenv('ONESKY_PROJECT'),
+);
+
+$app = new Application($config);
+$app->addCommands(array(
+    new Seven\OneskyDownloader\Command\DownloadCommand(),
+));
+
+$app->run();
