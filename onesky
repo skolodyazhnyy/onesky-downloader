@@ -1,7 +1,18 @@
 #!/usr/bin/env php
 <?php
 
-require_once __DIR__ . "/vendor/autoload.php";
+$autoloads = array(
+    "vendor/autoload.php",
+    __DIR__ . "/vendor/autoload.php",
+    dirname(__DIR__) . "/vendor/autoload.php",
+    dirname(dirname(__DIR__)) . "/vendor/autoload.php",
+);
+
+foreach ($autoloads as $autoload) {
+    if (file_exists($autoload)) {
+        require_once $autoload;
+    }
+}
 
 use Seven\OneskyDownloader\Application;
 
