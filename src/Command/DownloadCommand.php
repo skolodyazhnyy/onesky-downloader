@@ -44,10 +44,10 @@ class DownloadCommand extends ContainerAwareCommand
      */
     protected function getLocales(InputInterface $input)
     {
-        if ($locale = $input->getOption('locale')) {
-            $this->checkLocale($locale);
+        if ($locales = $input->getOption('locale')) {
+            $this->checkLocale($locales);
 
-            return array($locale);
+            return $locales;
         }
 
         return $this->getAllLocales();
